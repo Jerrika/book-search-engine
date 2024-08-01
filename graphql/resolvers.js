@@ -1,6 +1,6 @@
 // graphql/resolvers.js
 const { User } = require('../models');
-const { signToken } = require('../utils/auth');
+const { signToken } = require('../Develop/server/utils/auth');
 const { AuthenticationError } = require('apollo-server-express');
 
 const resolvers = {
